@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+# Spring Legacy Project의 기본 log4j.xml 빨간줄없애기
+
+<!DOCTYPE log4j:configuration SYSTEM "http://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd">
+
+# Logging Level
+
+	-OFF : 로그를 끔
+	-FATAL : 치명적인 에러
+	-ERROR : 에러
+	-WARN : 주의
+	-INFO : 일반 정보
+	-DEBUG : 디버깅 정보
+	-TRACE : 더 자세한 디버깅 정보
+	-ALL : 모든 로그를 보여줌
+	
+	로거에 로깅레벨을 설정하면, 로거는 설정한 레벨 이상으로 중요한 로그들만 수집하게된다
+	
